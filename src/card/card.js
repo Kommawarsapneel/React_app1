@@ -6,7 +6,7 @@ export const Card_componet=()=>{
     return(
         <div>
       <Image></Image>
-      <ButtonElem></ButtonElem>
+      <ButtonElem></ButtonElem><br></br>
       <Heading_componet></Heading_componet>
       </div>
     )
