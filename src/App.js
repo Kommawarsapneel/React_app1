@@ -1,25 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+import { ButtonElem } from "./button/button.js";
+import { Image } from "./image/image.js";
+import { Order_List } from "./list/list.js";
+import { Card_componet } from "./card/card.js";
+const App=()=>{
+return(
+  <div>
+  <ButtonElem />
+  <Image/>
+  <Order_List></Order_List>
+  <Card_componet></Card_componet>
+  
+  </div>
+)
+};
 
 export default App;
